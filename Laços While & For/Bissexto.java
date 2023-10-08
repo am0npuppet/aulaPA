@@ -1,4 +1,3 @@
-package whilefor;
 
 public class Bissexto {
     public static void main(String[] args) {
