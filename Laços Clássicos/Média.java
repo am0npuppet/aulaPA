@@ -1,4 +1,3 @@
-package classic;
 
 public class Média {
     public static void main(String[] args) {
