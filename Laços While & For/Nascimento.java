@@ -1,4 +1,3 @@
-package whilefor;
 import java.util.Scanner;
 
 public class Nascimento {
