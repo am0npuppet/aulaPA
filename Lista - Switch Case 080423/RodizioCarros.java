@@ -1,5 +1,5 @@
-package exercices;
 import java.util.Scanner;
+
 public class RodizioCarros {
 	public static void main(String[] args) {
 		int p;
