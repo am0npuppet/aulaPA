@@ -1,5 +1,5 @@
-package exercices;
 import java.util.Scanner;
+
 public class EscolaFutebol {
 	public static void main(String[] args) {
 		int idade;
