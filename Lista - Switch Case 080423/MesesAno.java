@@ -1,5 +1,5 @@
-package exercices;
 import java.util.Scanner;
+
 public class MesesAno {
 	public static void main(String[] args) {
 		int m;
