@@ -1,4 +1,3 @@
-package classic;
 import java.util.Scanner;
 
 public class Primos {
