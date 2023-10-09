@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Primos {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        
         int n, i = 2;
         
         do {
