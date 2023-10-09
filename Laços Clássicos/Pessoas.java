@@ -9,7 +9,7 @@ public class Pessoas {
 		System.out.println("Digite a quantidade de pessoas determinada: ");
 		int totalPessoas = in.nextInt();
 		
-		if(totalPessoas != 15) {
+		if (totalPessoas != 15) {
 			return;
 		}
 		
