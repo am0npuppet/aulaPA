@@ -36,31 +36,31 @@ public class Pessoas {
 			}
 		}
 		
-		for (int porcentagemFaixaEtaria = 1; porcentagemFaixaEtaria <= 4; porcentagemFaixaEtaria++) {
-            int porcentagem;
-            switch (porcentagemFaixaEtaria) {
-                case 1:
-                    porcentagem = (contadorMenos15 * 100) / totalPessoas;
-                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos15 + "\n" + porcentagem + "% do total de pessoas");
-                    break;
-                case 2:
-                    porcentagem = (contadorMenos30 * 100) / totalPessoas;
-                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos30 + "\n" + porcentagem + "% do total de pessoas");
-
-                    break;
-                case 3:
-                    porcentagem = (contadorMenos45 * 100) / totalPessoas;
-                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos45 + "\n" + porcentagem + "% do total de pessoas");
-                    break;
-                case 4:
-                    porcentagem = (contadorMenos60 * 100) / totalPessoas;
-                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos60 + "\n" + porcentagem + "% do total de pessoas");
-                    break;
-                case 5:
-                	porcentagem = (contadorMais60 * 100) / totalPessoas;
-                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos60 + "\n" + porcentagem + "% do total de pessoas");
-            }
-        }
+		for (int porcentagemFaixaEtaria = 1; porcentagemFaixaEtaria <= 5; porcentagemFaixaEtaria++) {
+		            int porcentagem;
+		            switch (porcentagemFaixaEtaria) {
+		                case 1:
+		                    porcentagem = (contadorMenos15 * 100) / totalPessoas;
+		                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos15 + "\n" + porcentagem + "% do total de pessoas");
+		                    break;
+		                case 2:
+		                    porcentagem = (contadorMenos30 * 100) / totalPessoas;
+		                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos30 + "\n" + porcentagem + "% do total de pessoas");
+		
+		                    break;
+		                case 3:
+		                    porcentagem = (contadorMenos45 * 100) / totalPessoas;
+		                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos45 + "\n" + porcentagem + "% do total de pessoas");
+		                    break;
+		                case 4:
+		                    porcentagem = (contadorMenos60 * 100) / totalPessoas;
+		                    System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos60 + "\n" + porcentagem + "% do total de pessoas");
+		                    break;
+		                case 5:
+		                	porcentagem = (contadorMais60 * 100) / totalPessoas;
+		                   	System.out.println("Faixa etária " + porcentagemFaixaEtaria + ": \nQuantidade de pessoas: " + contadorMenos60 + "\n" + porcentagem + "% do total de pessoas");
+		        }
+	        }
 		
 		in.close();
 		System.exit(0);
