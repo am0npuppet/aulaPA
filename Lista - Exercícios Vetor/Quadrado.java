@@ -1,7 +1,6 @@
-package vetorex;
 import java.util.Scanner;
 
-public class Vetor {
+public class Quadrado {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
@@ -12,7 +11,7 @@ public class Vetor {
 		b = new int[TAM];
 		
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Diite o " + (i + 1) + "บ valor: ");
+			System.out.println("Diite o " + (i + 1) + "ยบ valor: ");
 			a[i] = in.nextInt();
 		}
 		
