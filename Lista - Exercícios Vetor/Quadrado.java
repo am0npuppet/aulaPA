@@ -27,5 +27,8 @@ public class Quadrado {
 			System.out.print(b[i] + " ");
 		}
 		System.out.print(" ]");
+
+		in.close();
+		System.exit(0);
 	}
 }
