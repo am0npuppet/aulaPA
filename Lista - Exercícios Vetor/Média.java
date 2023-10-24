@@ -1,7 +1,6 @@
-package vector;
 import java.util.Scanner;
 
-public class Média {
+public class MÃ©dia {
 	public static void main(String []args) {
 		Scanner in = new Scanner(System.in);
 		
@@ -11,7 +10,7 @@ public class Média {
 		a = new int[TAM];
 		
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Digite o valor do " + (i + 1) + "º valor do vetor: ");
+			System.out.println("Digite o valor do " + (i + 1) + "Âº valor do vetor: ");
 			a[i] = in.nextInt();
 		}
 		
@@ -26,7 +25,7 @@ public class Média {
 		for (i = 0; i < TAM; i++) {
 			media = (double) soma / TAM;
 		}
-		System.out.println("A média entre os valores é: " + media);
+		System.out.println("A mÃ©dia entre os valores Ã©: " + media);
 		
 		in.close();
 		System.exit(0);
