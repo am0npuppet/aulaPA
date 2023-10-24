@@ -1,4 +1,3 @@
-package vector;
 import java.util.Scanner;
 
 public class Soma {
@@ -14,12 +13,12 @@ public class Soma {
 		c = new int[TAM];
 		
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Digite o " + (i + 1) + "บ valor do vetor A: " );
+			System.out.println("Digite o " + (i + 1) + "ยบ valor do vetor A: " );
 			a[i] = in.nextInt();
 		}
 		
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Digite o " + (i + 1) + "บ valor do vetor B: ");
+			System.out.println("Digite o " + (i + 1) + "ยบ valor do vetor B: ");
 			b[i] = in.nextInt();
 		}
 		
