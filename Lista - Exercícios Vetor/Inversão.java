@@ -1,4 +1,3 @@
-package vector;
 import java.util.Scanner;
 
 public class Inversão {
