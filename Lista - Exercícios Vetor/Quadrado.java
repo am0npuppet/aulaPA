@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class Quadrado {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
 		
-		int a[], b[], i;
+		Scanner in = new Scanner(System.in);
+
+		int i;
+		int[] a, b;
 		final int TAM = 10;
 		
 		a = new int[TAM];
@@ -26,7 +28,7 @@ public class Quadrado {
 			b[i] = a[i] * a[i];
 			System.out.print(b[i] + " ");
 		}
-		System.out.print(" ]");
+		System.out.print("]");
 
 		in.close();
 		System.exit(0);
