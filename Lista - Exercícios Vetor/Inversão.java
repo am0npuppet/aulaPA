@@ -1,7 +1,7 @@
 package vector;
 import java.util.Scanner;
 
-public class Invers„o {
+public class Invers√£o {
 	public static void main (String []args) {
 		
 		Scanner in = new Scanner (System.in);
@@ -32,5 +32,8 @@ public class Invers„o {
 			System.out.print(b[i] + " ");
 		}
 		System.out.print("]");
+
+		in.close();
+		System.exit(0);
 	}
 }
