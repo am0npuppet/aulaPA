@@ -14,7 +14,7 @@ public class Primo {
         for (i = 0; i < TAM; i++) {
             resto = 0;
             n = 1;
-            System.out.println("Escreva um número ");
+            System.out.println("\nDigite um número: ");
             a[i] = in.nextInt();
             b = a[i];
 
@@ -30,11 +30,11 @@ public class Primo {
             }
 
             if (resto < 2) {
-                System.out.println("Não é primo");
+                System.out.println("Não é primo!");
             } else if (resto == 2) {
-                System.out.println("É primo");
+                System.out.println("É primo!");
             } else {
-                System.out.println("Não é primo");
+                System.out.println("Não é primo!");
             }
         }
 
