@@ -13,12 +13,12 @@ public class RegraC {
         c = new int[TAM];
 
         for (int i = 0; i < TAM; i++) {
-            System.out.println("\nInsira um valor do vetor A: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número do vetor A: ");
             a[i] = in.nextInt();
         }
 
         for (int i = 0; i < TAM; i++) {
-            System.out.println("\nInsira um valor do vetor B: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número do vetor B: ");
             b[i] = in.nextInt();
         }
 
