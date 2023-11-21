@@ -12,7 +12,7 @@ public class Regra {
         b = new int[TAM];
 
         for (int i = 0; i < TAM; i++) {
-            System.out.println("\nDigite o " + (i + 1) + "º número para o vetor A: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número do vetor A: ");
             a[i] = in.nextInt();
 
             if (a[i] % 2 == 0 || a[i] == 0) {
