@@ -11,7 +11,7 @@ public class Tabuada {
         a = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("\nEscreva o " + (i + 1) + "º número: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número: ");
             a[i] = in.nextInt();
 
             for (int numero = 1; numero <= 10; numero++) {
