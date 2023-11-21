@@ -14,12 +14,12 @@ public class Interseccao {
 		c = new int [TAM];
 		
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Escreva os n�meros do vetor A");
+			System.out.println("\nDigite o " + (i + 1) + "º número do vetor A: ");
 			a[i] = in.nextInt();
 		}
 		
 		for (i = 0; i < TAM; i++){
-			System.out.println("\nEscreva os n�meros do vetor B");
+			System.out.println("\nDigite o " + (i + 1) + "º número do vetor B: ");
 			b[i] = in.nextInt();
 		    
 			for (int g = 0; g < TAM; g++){
@@ -30,7 +30,7 @@ public class Interseccao {
 			}
 		}
 	    
-		System.out.print("Os valores de C vetor �: ");
+		System.out.print("Os valores deo vetor C são: ");
 		for (i = 0; i < TAM; i++) {
 		    
 			if (c[i] == 0) {
