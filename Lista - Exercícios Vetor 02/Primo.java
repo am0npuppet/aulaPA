@@ -20,6 +20,7 @@ public class Primo {
 
             while (n <= b) {
                 div = b % n;
+		    
                 if (div == 0) {
                     resto++;
                     n++;
