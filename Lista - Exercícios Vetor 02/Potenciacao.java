@@ -11,7 +11,7 @@ public class Potenciacao {
         a = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.print("\nInsira o " + (l + 1) + "º número: ");
+            System.out.print("\nDigite o " + (l + 1) + "º número: ");
             l++;
             n = in.nextInt();
             System.out.print("Na posição " + i + " a potência do número 2 por " + n + " é: ");
