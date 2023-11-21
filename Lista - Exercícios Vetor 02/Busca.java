@@ -5,7 +5,7 @@ public class Busca {
 
         Scanner in = new Scanner(System.in);
 
-        int a[], proc, i, resp, h = 0;
+        int a[], proc, i, resp, verificacao = 0;
 
         final int TAM = 10;
 
@@ -23,11 +23,11 @@ public class Busca {
             for (i = 0; i < TAM; i++) {
                 if (proc == a[i]) {
                     System.out.println(proc + ": Este número existe no vetor!");
-                    h = 1;
+                    verificacao = 1;
                 }
             }
 
-            if (h == 0) {
+            if (verificacao == 0) {
                 System.out.println(proc + ": Este número não existe no vetor!");
             }
 
@@ -43,7 +43,7 @@ public class Busca {
                 resp++;
             }
 
-            h = 0;
+            verificacao = 0;
         } while (resp > 0 && resp <= 2);
 
         in.close();
