@@ -12,7 +12,7 @@ public class ImparPar {
         b = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("Escreva o " + (i + 1) + "º número: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número: ");
             a[i] = in.nextInt();
 
             if (a[i] % 2 == 0) {
