@@ -5,7 +5,7 @@ public class Divisor {
 
         Scanner in = new Scanner(System.in);
 
-        int a[], i, j, d;
+        int a[], i, j, divisor;
         final int TAM = 10;
 
         a = new int[TAM];
@@ -16,8 +16,8 @@ public class Divisor {
             
             System.out.print("\nSão os divisores do número " + a[i] + " os seguintes: ");
             for (j = 1; j <= a[i]; j++) {
-                d = a[i] % j;
-                if (d == 0) {
+                divisor = a[i] % j;
+                if (divisor == 0) {
                     System.out.print(j + " ");
                 }
             }
