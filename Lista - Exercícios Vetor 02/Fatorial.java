@@ -13,7 +13,7 @@ public class Fatorial {
         b = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("\nSelecione um número para realizar seu fatorial: ");
+            System.out.println("\nDigite um número para realizar seu fatorial: ");
             a[i] = in.nextInt();
             f = a[i];
 
