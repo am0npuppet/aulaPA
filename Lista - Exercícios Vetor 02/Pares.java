@@ -11,14 +11,15 @@ public class Pares {
         a = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("\nEscreva um número");
+            System.out.println("\nDigite um número: ");
             a[i] = in.nextInt();
-            System.out.print("\nSão pares relacionados até o número " + a[i] + " os seguintes: ");
+            System.out.print("\nSão pares até o número " + a[i] + " os seguintes: ");
 
             for (p = 0; p < a[i]; p = p + 2) {
                 System.out.print(p + " ");
             }
         }
+        
         in.close();
         System.exit(0);
     }
