@@ -12,7 +12,7 @@ public class Somatoria {
         b = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("\nEscreva o " + (i + 1) + "º número para realizar a somatoria: ");
+            System.out.println("\nDigite o " + (i + 1) + "º número para realizar a somatoria: ");
             a[i] = in.nextInt();
         }
 
