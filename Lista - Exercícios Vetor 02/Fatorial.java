@@ -5,7 +5,7 @@ public class Fatorial {
 
         Scanner in = new Scanner(System.in);
 
-        int a[], b[], i, g;
+        int a[], b[], i, j;
         long f = 0;
         final int TAM = 15;
 
@@ -17,8 +17,8 @@ public class Fatorial {
             a[i] = in.nextInt();
             f = a[i];
 
-            for (g = 1; g < a[i]; g++) {
-                f = f * g;
+            for (j = 1; j < a[i]; j++) {
+                f = f * j;
             }
 
             b[i] = (int) f;
