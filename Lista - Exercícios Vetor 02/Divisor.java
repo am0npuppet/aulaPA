@@ -13,8 +13,8 @@ public class Divisor {
         for (i = 0; i < TAM; i++) {
             System.out.println("\nDigite um número: ");
             a[i] = in.nextInt();
+            
             System.out.print("\nSão os divisores do número " + a[i] + " os seguintes: ");
-
             for (j = 1; j <= a[i]; j++) {
                 d = a[i] % j;
                 if (d == 0) {
