@@ -1,5 +1,5 @@
 
-public class Média {
+public class Media {
     public static void main(String[] args) {
     	
         double soma = 0;
